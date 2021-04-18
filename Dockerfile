@@ -4,4 +4,4 @@ RUN mkdir /webserver
 COPY . /webserver
 RUN chmod +x /webserver/webserver.sh
 EXPOSE 8888
-RUN /webserver/webserver.sh
+CMD /webserver/webserver.sh
